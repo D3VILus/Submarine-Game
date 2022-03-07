@@ -1,123 +1,135 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 32446 MB
+OS: 'Windows 10 Home; OS build 19044.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 16226 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Submarine-Game
+C:/Users/tjwny/OneDrive/Documents/Submarine-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63958
-Successfully changed project path to: D:/Submarine-Game
-D:/Submarine-Game
+57145
+Successfully changed project path to: C:/Users/tjwny/OneDrive/Documents/Submarine-Game
+C:/Users/tjwny/OneDrive/Documents/Submarine-Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
-[Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Submarine-Game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tjwny/OneDrive/Documents/Submarine-Game/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e90)
     Vendor:   
-    VRAM:     8041 MB
-    Driver:   30.0.14.7212
+    VRAM:     8010 MB
+    Driver:   30.0.15.1165
 Initialize mono
-Mono path[0] = 'D:/Unity/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000927 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.004827 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.81 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 29.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
+- Completed reload, in  2.340 seconds
 Domain Reload Profiling:
-	ReloadAssembly (752ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (2341ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (358ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (398ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (134ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (154ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (26ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001747 seconds.
+Registered in 0.003518 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
+- Completed reload, in  0.976 seconds
 Domain Reload Profiling:
-	ReloadAssembly (852ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (662ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (235ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (182ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (197ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1401 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1837.
-Total: 2.696000 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.056600 ms MarkObjects: 2.395400 ms  DeleteObjects: 0.061500 ms)
+Total: 2.758800 ms (FindLiveObjects: 0.172300 ms CreateObjectMapping: 0.035500 ms MarkObjects: 2.452500 ms  DeleteObjects: 0.097900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,7 +138,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -134,127 +145,167 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/seamine.fbx
   artifactKey: Guid(4189efb0da2cfa14487fe8baf3dafdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/seamine.fbx using Guid(4189efb0da2cfa14487fe8baf3dafdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e029f76f5d11a9563b1cbb443d17bb') in 0.174669 seconds 
-  Import took 0.176948 seconds .
+Start importing Assets/seamine.fbx using Guid(4189efb0da2cfa14487fe8baf3dafdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47424a8c591b1434fd86cc20a4cb6556') in 0.166366 seconds 
+  Import took 0.168689 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.902660 seconds.
-  path: Assets/Assets from Blender
-  artifactKey: Guid(61c7795ed417c784381e7b90445db761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender using Guid(61c7795ed417c784381e7b90445db761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47614e15125738b135f718ea1c7381a') in 0.004514 seconds 
-  Import took 0.007040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.114075 seconds.
-  path: Assets/Main Game Folder
-  artifactKey: Guid(1a17d2db68b80a54f833d5954ade725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Game Folder using Guid(1a17d2db68b80a54f833d5954ade725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb88546f435f5ac66021d4de77ceee94') in 0.004798 seconds 
-  Import took 0.007154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.318817 seconds.
-  path: Assets/Assets from Blender/Submarine Cock pit
-  artifactKey: Guid(6381c8cc074c2de488f7d29602266011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Submarine Cock pit using Guid(6381c8cc074c2de488f7d29602266011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2762ee0e557a9e5b18827eb0fe0fc597') in 0.005230 seconds 
-  Import took 0.007815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.304134 seconds.
+  Time since last request: 165.808897 seconds.
   path: Assets/Assets from Blender/Submarine Cock pit/glass_.png
   artifactKey: Guid(f41c1483d645bc04483cf6b53b84462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Submarine Cock pit/glass_.png using Guid(f41c1483d645bc04483cf6b53b84462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a16e3f75131dc6fa777e83fe4e7d82') in 0.030567 seconds 
-  Import took 0.033090 seconds .
+Start importing Assets/Assets from Blender/Submarine Cock pit/glass_.png using Guid(f41c1483d645bc04483cf6b53b84462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcdd44c9c2debcafad860f6b72ec2bc') in 0.032941 seconds 
+  Import took 0.035359 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
+  Time since last request: 0.000436 seconds.
   path: Assets/Assets from Blender/Submarine Cock pit/sub-cockpit final.fbx
   artifactKey: Guid(8ca6d24c5e6051446b29885bc9281653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Submarine Cock pit/sub-cockpit final.fbx using Guid(8ca6d24c5e6051446b29885bc9281653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2afd2bebb3d42e5946bfc04fd017fc') in 0.365279 seconds 
-  Import took 0.367908 seconds .
+Start importing Assets/Assets from Blender/Submarine Cock pit/sub-cockpit final.fbx using Guid(8ca6d24c5e6051446b29885bc9281653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b566742c437573c07eaa0c8c258439a') in 0.189890 seconds 
+  Import took 0.192007 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
+  Time since last request: 0.000414 seconds.
   path: Assets/Assets from Blender/Submarine Cock pit/Metal rough ness.png
   artifactKey: Guid(e8b0d2d92ffa6c745bd210a0074de315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Submarine Cock pit/Metal rough ness.png using Guid(e8b0d2d92ffa6c745bd210a0074de315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955f876a3616c5cd05683ecc8c786ea4') in 0.027450 seconds 
-  Import took 0.029752 seconds .
+Start importing Assets/Assets from Blender/Submarine Cock pit/Metal rough ness.png using Guid(e8b0d2d92ffa6c745bd210a0074de315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2c7907288a65348e088dc45d37caf5') in 0.014733 seconds 
+  Import took 0.017057 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
+  Time since last request: 0.000691 seconds.
   path: Assets/Assets from Blender/Submarine Cock pit/metal yellow.png
   artifactKey: Guid(3aa95762a0ff4f7439a9497aa4d3e625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Submarine Cock pit/metal yellow.png using Guid(3aa95762a0ff4f7439a9497aa4d3e625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f8884f0607c17df6cf1a6bdebbd738') in 0.011650 seconds 
-  Import took 0.014239 seconds .
+Start importing Assets/Assets from Blender/Submarine Cock pit/metal yellow.png using Guid(3aa95762a0ff4f7439a9497aa4d3e625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4125dbad771ba1b8c67691a26b97b4e5') in 0.011135 seconds 
+  Import took 0.014721 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
+  Time since last request: 0.000836 seconds.
   path: Assets/Assets from Blender/Submarine Cock pit/soft purple metal.png
   artifactKey: Guid(d9f0caeacd94a5545944ac8589e0b8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Submarine Cock pit/soft purple metal.png using Guid(d9f0caeacd94a5545944ac8589e0b8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9a937771e669a7a017a7e284458fa1') in 0.010741 seconds 
-  Import took 0.013338 seconds .
+Start importing Assets/Assets from Blender/Submarine Cock pit/soft purple metal.png using Guid(d9f0caeacd94a5545944ac8589e0b8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492d34a77c75f9800fe3a44f7fc4473d') in 0.017875 seconds 
+  Import took 0.020362 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000157 seconds.
+  Time since last request: 0.000426 seconds.
   path: Assets/Assets from Blender/Submarine Cock pit/metal normal.png
   artifactKey: Guid(8680ae0afe0a6784d9413f30a82f2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Submarine Cock pit/metal normal.png using Guid(8680ae0afe0a6784d9413f30a82f2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e04c1bd64d0928b7698f057cc7f5ce1') in 0.011865 seconds 
-  Import took 0.014358 seconds .
+Start importing Assets/Assets from Blender/Submarine Cock pit/metal normal.png using Guid(8680ae0afe0a6784d9413f30a82f2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ae52f8e38542869366b76b5420a62d') in 0.015500 seconds 
+  Import took 0.017506 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Assets from Blender/Submarine Cock pit/soft purple metal.png
+  artifactKey: Guid(d9f0caeacd94a5545944ac8589e0b8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets from Blender/Submarine Cock pit/soft purple metal.png using Guid(d9f0caeacd94a5545944ac8589e0b8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492d34a77c75f9800fe3a44f7fc4473d') in 0.015386 seconds 
+  Import took 0.017772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
   path: Assets/Assets from Blender/Submarine Cock pit/metal color brown.png
   artifactKey: Guid(8f9f46d893cdd3e48a3f71235be8fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Submarine Cock pit/metal color brown.png using Guid(8f9f46d893cdd3e48a3f71235be8fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82763755a84225ab468e445f236b345c') in 0.013809 seconds 
-  Import took 0.016184 seconds .
+Start importing Assets/Assets from Blender/Submarine Cock pit/metal color brown.png using Guid(8f9f46d893cdd3e48a3f71235be8fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a4256c95a856460011ea0b703d0cf9') in 0.009025 seconds 
+  Import took 0.011541 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.580918 seconds.
-  path: Assets/Assets from Blender/Enemy Submarine
-  artifactKey: Guid(e2df3c752c2233149bfffd34ede78292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Enemy Submarine using Guid(e2df3c752c2233149bfffd34ede78292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dbddd82098f15e7871f2cb7eccd4ba') in 0.004581 seconds 
-  Import took 0.007329 seconds .
+  Time since last request: 14.937627 seconds.
+  path: Assets/Title Screen Folder/Title Screen.unity
+  artifactKey: Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Title Screen Folder/Title Screen.unity using Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de97cbffabe1426468debfae803359c1') in 0.004372 seconds 
+  Import took 0.006862 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000916 seconds.
-  path: Assets/Assets from Blender/Enemy Submarine
-  artifactKey: Guid(e2df3c752c2233149bfffd34ede78292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Enemy Submarine using Guid(e2df3c752c2233149bfffd34ede78292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dbddd82098f15e7871f2cb7eccd4ba') in 0.001540 seconds 
-  Import took 0.003966 seconds .
+  Time since last request: 0.000572 seconds.
+  path: Assets/Title Screen Folder/Title Screen.unity
+  artifactKey: Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Title Screen Folder/Title Screen.unity using Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de97cbffabe1426468debfae803359c1') in 0.003980 seconds 
+  Import took 0.006718 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.828016 seconds.
-  path: Assets/Assets from Blender/Kelp
-  artifactKey: Guid(0df6d1afb288cab4193acb3af58fef8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Kelp using Guid(0df6d1afb288cab4193acb3af58fef8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26974d802787ceb5380155525675999') in 0.006248 seconds 
-  Import took 0.008794 seconds .
+  Time since last request: 21.748145 seconds.
+  path: Assets/Title Screen Folder/Title Screen 1.unity
+  artifactKey: Guid(b4b7a89d9905f964196a447f82cc15de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Title Screen Folder/Title Screen 1.unity using Guid(b4b7a89d9905f964196a447f82cc15de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d87f6d9012ae1a03c8faf1c531c9f7') in 0.004050 seconds 
+  Import took 0.007337 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.615005 seconds.
-  path: Assets/Assets from Blender/Sea Mine
-  artifactKey: Guid(a023b452a1abe9847aeb6a42c21521f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/Sea Mine using Guid(a023b452a1abe9847aeb6a42c21521f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253e07c1ae60c462f7bc4d6af35d9e56') in 0.004394 seconds 
-  Import took 0.006873 seconds .
+  Time since last request: 5.969711 seconds.
+  path: Assets/Main Game Folder/Gameplay.unity
+  artifactKey: Guid(327bbce541ef6a643a3cdd93f87e2a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game Folder/Gameplay.unity using Guid(327bbce541ef6a643a3cdd93f87e2a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cfd3b939825c82f9870afd10405cf9') in 0.004216 seconds 
+  Import took 0.007354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.863497 seconds.
-  path: Assets/Assets from Blender/depth charge
-  artifactKey: Guid(87bdaeb888f8f9e4b92ecd3d0e022320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets from Blender/depth charge using Guid(87bdaeb888f8f9e4b92ecd3d0e022320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf9183e9e03926b4bc396804cb0695b') in 0.005800 seconds 
-  Import took 0.008152 seconds .
+  Time since last request: 9.608159 seconds.
+  path: Assets/Main Game Folder/Gameplay.unity
+  artifactKey: Guid(327bbce541ef6a643a3cdd93f87e2a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game Folder/Gameplay.unity using Guid(327bbce541ef6a643a3cdd93f87e2a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45bc3869ff8bc226de012e92bc10652') in 0.003357 seconds 
+  Import took 0.006160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.427582 seconds.
+  path: Assets/Main Game Folder/Gameplay.unity
+  artifactKey: Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game Folder/Gameplay.unity using Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2967e7d62beb75693176c073149762') in 0.004236 seconds 
+  Import took 0.007993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002865 seconds.
+  path: Assets/Main Game Folder/Gameplay.unity
+  artifactKey: Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game Folder/Gameplay.unity using Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2967e7d62beb75693176c073149762') in 0.003894 seconds 
+  Import took 0.006580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.076305 seconds.
+  path: Assets/Teaching Folder
+  artifactKey: Guid(1f6b2b45747c4d440b5d512b2ecabcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teaching Folder using Guid(1f6b2b45747c4d440b5d512b2ecabcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5249786617bc7153d7b8e934d57de539') in 0.004611 seconds 
+  Import took 0.007539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.900809 seconds.
+  path: Assets/Learning Folder
+  artifactKey: Guid(300cbeac6ebf7c54b8dc378aa3629c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning Folder using Guid(300cbeac6ebf7c54b8dc378aa3629c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1fb600d9a515806c6897d9e5ec890e') in 0.003665 seconds 
+  Import took 0.006448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.972339 seconds.
+  path: Assets/Main Game Folder
+  artifactKey: Guid(1a17d2db68b80a54f833d5954ade725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game Folder using Guid(1a17d2db68b80a54f833d5954ade725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bc35b5e9b81baea410ec06f114b453') in 0.003170 seconds 
+  Import took 0.006300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.090919 seconds.
+  path: Assets/Assets from Blender/Submarine Cock pit/GlassM.mat
+  artifactKey: Guid(f89cf9d2b6b82474a8d26f168200c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets from Blender/Submarine Cock pit/GlassM.mat using Guid(f89cf9d2b6b82474a8d26f168200c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13353bc3d341f8371b969bce5ea8f872') in 0.070508 seconds 
+  Import took 0.072763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.865168 seconds.
+  path: Assets/Assets from Blender/Submarine Cock pit/GlassM.mat
+  artifactKey: Guid(f89cf9d2b6b82474a8d26f168200c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets from Blender/Submarine Cock pit/GlassM.mat using Guid(f89cf9d2b6b82474a8d26f168200c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d52a7520aaea477b9324ffb1cd8e4ba') in 0.027175 seconds 
+  Import took 0.030232 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

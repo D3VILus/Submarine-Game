@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Title Screen Folder/Title Screen.unity
+- path: Assets/Main Game Folder/Gameplay.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
