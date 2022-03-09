@@ -5,6 +5,7 @@ using UnityEngine;
 public class LearnMovement: MonoBehaviour
 {
     float Vspeed, Hspeed, Zspeed;
+    float Tminus;
 
 
 
@@ -14,6 +15,7 @@ public class LearnMovement: MonoBehaviour
         Hspeed = 1;
         Vspeed = 1;
         Zspeed = 1;
+        Tminus = 15;
     }
 
     // Update is called once per frame
@@ -44,4 +46,71 @@ public class LearnMovement: MonoBehaviour
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + (Zspeed));
         }
     }
+    void OnTriggerEnter(Collider other)
+    {
+        Tminus = 15;
+        Hspeed = -Hspeed;
+        Vspeed = -Vspeed;
+        Zspeed = -Zspeed;
+
+        Debug.Log("Log enter");
+    }
+    //void OnTriggerExit(Collider other)
+  //  {
+       // Debug.Log("Log exit");
+//    }
+    void FixedUpdate()
+    {
+        Debug.Log(Tminus);
+        Tminus --;
+        if (Tminus <= 0)
+        {  
+         Hspeed = 1;
+         Vspeed = 1;
+         Zspeed = 1;
+        }
+    }
+
+
+// OnTriggerStay Check tag = look it up destroy mine debug log so make a score
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
