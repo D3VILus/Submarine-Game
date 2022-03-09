@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Learning Folder/Leaner Scene.unity
+- path: Assets/FROMOTHERPROJECT/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
