@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TeachMovement: MonoBehaviour
+public class TeachMovement : MonoBehaviour
 {
     float Vspeed, Hspeed, Zspeed;
-
+    float Timeie;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        Timeie = 15;
         Hspeed = 1;
         Vspeed = 1;
         Zspeed = 1;
@@ -39,9 +40,32 @@ public class TeachMovement: MonoBehaviour
         {
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - (Zspeed));
         }
+        //Move backwards
         if (Input.GetKey(KeyCode.LeftControl))
         {
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + (Zspeed));
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Timeie = 15;
+        Hspeed = -Hspeed;
+        Vspeed = -Vspeed;
+        Zspeed = -Zspeed;
+        Debug.Log("Log");
+    }
+
+    private void FixedUpdate()
+    {
+        Timeie--;
+        if(Timeie <= 0)
+        {
+            Hspeed = 1;
+            Vspeed = 1;
+            Zspeed = 1;
+        }
+    }
+
+
 }
