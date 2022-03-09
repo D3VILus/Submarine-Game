@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class TeachMovement: MonoBehaviour
 {
-    float Vspeed, Hspeed;
+    float Vspeed, Hspeed, Zspeed;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Hspeed += 3;
-        Vspeed += 3;
+        Hspeed = 1;
+        Vspeed = 1;
+        Zspeed = 1;
     }
 
     // Update is called once per frame
@@ -35,6 +36,13 @@ public class TeachMovement: MonoBehaviour
         {
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y - (Vspeed), transform.position.z);
         }
-
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - (Zspeed));
+        }
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + (Zspeed));
+        }
     }
 }

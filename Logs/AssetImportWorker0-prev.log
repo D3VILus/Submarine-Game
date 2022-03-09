@@ -1,0 +1,207 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 16226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tjwny/OneDrive/Documents/Submarine-Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60132
+Successfully changed project path to: C:/Users/tjwny/OneDrive/Documents/Submarine-Game
+C:/Users/tjwny/OneDrive/Documents/Submarine-Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tjwny/OneDrive/Documents/Submarine-Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e90)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.005236 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.436 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2436ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (409ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (156ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 3.192500 ms (FindLiveObjects: 0.174200 ms CreateObjectMapping: 0.050000 ms MarkObjects: 2.901300 ms  DeleteObjects: 0.065600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/seamine.fbx
+  artifactKey: Guid(4189efb0da2cfa14487fe8baf3dafdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/seamine.fbx using Guid(4189efb0da2cfa14487fe8baf3dafdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47424a8c591b1434fd86cc20a4cb6556') in 0.213170 seconds 
+  Import took 0.215728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.180075 seconds.
+  path: Assets/Learning Folder
+  artifactKey: Guid(300cbeac6ebf7c54b8dc378aa3629c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning Folder using Guid(300cbeac6ebf7c54b8dc378aa3629c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1fb600d9a515806c6897d9e5ec890e') in 0.002865 seconds 
+  Import took 0.004992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012173 seconds.
+  path: Assets/Learning Folder
+  artifactKey: Guid(300cbeac6ebf7c54b8dc378aa3629c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning Folder using Guid(300cbeac6ebf7c54b8dc378aa3629c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1fb600d9a515806c6897d9e5ec890e') in 0.002737 seconds 
+  Import took 0.004913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.220688 seconds.
+  path: Assets/Learning Folder/Movement guide.cs
+  artifactKey: Guid(3edd902bdfa2a434eb7a913bfaeb8092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Learning Folder/Movement guide.cs using Guid(3edd902bdfa2a434eb7a913bfaeb8092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3908d556e7a00ac171c942adacce52b') in 0.012672 seconds 
+  Import took 0.014771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.085124 seconds.
+  path: Assets/Main Game Folder/Gameplay.unity
+  artifactKey: Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game Folder/Gameplay.unity using Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10ae544ae41e55d747fdafebcaa6b46') in 0.004383 seconds 
+  Import took 0.007546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001618 seconds.
+  path: Assets/Main Game Folder/Gameplay.unity
+  artifactKey: Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game Folder/Gameplay.unity using Guid(dd7cb23683557b744b44603989f701cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10ae544ae41e55d747fdafebcaa6b46') in 0.003679 seconds 
+  Import took 0.006955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.435209 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.003959 seconds 
+  Import took 0.006184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.356907 seconds.
+  path: Assets/Title Screen Folder/Title Screen 1.unity
+  artifactKey: Guid(b4b7a89d9905f964196a447f82cc15de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Title Screen Folder/Title Screen 1.unity using Guid(b4b7a89d9905f964196a447f82cc15de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d87f6d9012ae1a03c8faf1c531c9f7') in 0.004051 seconds 
+  Import took 0.006237 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
