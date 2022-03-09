@@ -21,7 +21,6 @@ public class LearnMovement: MonoBehaviour
     {
         if (Input.GetKey(KeyCode.D))
         {
-
             gameObject.transform.position = new Vector3(transform.position.x - (Hspeed), transform.position.y, transform.position.z);
         }
         if (Input.GetKey(KeyCode.A))
