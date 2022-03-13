@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines'
+=======
+<<<<<<< HEAD
+Base path: 'D:/Unity/Editor/Data', plugins path 'D:/Unity/Editor/Data/PlaybackEngines'
+=======
+Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines'
+>>>>>>> 31e00c841c5c4f239940f116973cc6d1247a06b7
+>>>>>>> 43c4fb6c41662417bf9584e7b5acf4f9102580ed
 Cmd: initializeCompiler
 
 Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
