@@ -59,6 +59,7 @@
     <Compile Include="Assets\Teaching Folder\TeachMovement.cs" />
     <Compile Include="Assets\FROMOTHERPROJECT\MouseLook.cs" />
     <Compile Include="Assets\Learning Folder\LearnMovement.cs" />
+    <Compile Include="Assets\SubMinimapIcon.cs" />
     <Compile Include="Assets\FROMOTHERPROJECT\CharMov.cs" />
     <Compile Include="Assets\FROMOTHERPROJECT\try2.cs" />
   </ItemGroup>
