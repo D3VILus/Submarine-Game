@@ -37,16 +37,31 @@ public class CharMov : MonoBehaviour
             Vector3 move = transform.up*-1;
             controller.Move(move*speed*Time.deltaTime);
         }
-               //               if (Input.GetKey(KeyCode.A))
-                //{Vector3 rotationVector = new Vector3(transform.rotation.x,transform.rotation.y,transform.rotation.z-0.1f);
-                 //   transform.localRotation =Quaternion.Euler(rotationVector);
-                //}
-                  //              if (Input.GetKey(KeyCode.D))
-                //{Vector3 rotationVector = new Vector3(transform.rotation.x,transform.rotation.y,transform.rotation.z+0.1f);
-                  //  transform.localRotation =Quaternion.Euler(rotationVector);
-                //}
-               
-                
+        //               if (Input.GetKey(KeyCode.A))
+        //{Vector3 rotationVector = new Vector3(transform.rotation.x,transform.rotation.y,transform.rotation.z-0.1f);
+        //   transform.localRotation =Quaternion.Euler(rotationVector);
+        //}
+        //              if (Input.GetKey(KeyCode.D))
+        //{Vector3 rotationVector = new Vector3(transform.rotation.x,transform.rotation.y,transform.rotation.z+0.1f);
+        //  transform.localRotation =Quaternion.Euler(rotationVector);
+        //}
+
+
+        CameraTilt();
+    }
+
+    //Camera Tilt Script
+    void CameraTilt()
+    {
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(0, 0, -1);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(0, 0, 1);
+        }
+
 
     }
 
